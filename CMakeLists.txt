@@ -24,4 +24,4 @@ install(FILES ${HDRS}
   DESTINATION include
 )
 
-add_executable(test test.cpp ${HDRS})
+add_executable(rmt_test test.cpp ${HDRS})
